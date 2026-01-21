@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>ProspectMiner AI</h2>
+  <button onclick="run()">Run Scraper</button>
+  <pre id="out"></pre>
+
+  <script>
+    function run() {
+      fetch("http://localhost:3000/scrape?q=dentists in chicago")
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById("out").innerText =
+            JSON.stringify(data, null, 2);
+        });
+    }
+  </script>
+</body>
+</html>
