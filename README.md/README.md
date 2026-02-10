@@ -1,5 +1,4 @@
 Project Description::
-
 ProspectMiner AI is a backend-driven lead generation system that automates the extraction of publicly available prospect and company data using Node.js and browser automation concepts. The project demonstrates a simple full-stack architecture where a frontend triggers REST APIs and displays structured lead data in real time, simulating an intelligent prospect mining workflow for sales and marketing use cases.
 The primary focus of the project is on backend API design, automation readiness, and frontend–backend integration rather than UI complexity.
 
